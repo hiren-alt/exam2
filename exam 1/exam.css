@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(./img/testimonial.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.box{
+    height: 450px;
+    width: 450px;
+    border: dashed 2px white;
+   background-color: rgba(255, 255, 255, 0.192);
+   margin: 0 auto; 
+   overflow: hidden; 
+   position: relative;   
+}
+.padding{
+    padding-top: 250px;
+}
+.cricle1{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: -52px;
+    left: -41px;
+}
+.cricle2{
+    height: 180px;
+    width: 179px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    top: -38px;
+    left: -26px;
+    border: dashed white;
+}
+ img {
+    border-radius: 50%;
+    height: 143px;
+    width: 117px;
+    position: absolute;
+    top: 60px;
+    left:300px;
+}
+h2{
+    color: white;
+    text-align: center ;
+  margin-left: 250px;
+  margin-top: 18px;
+   
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: -60%;
+}
+p{
+    color: white;
+    width: 345px;
+    padding-left: 50px;
+}
+.box :hover{
+    background-color: rgba(0, 0, 0, 0.301);
+     overflow-y: scroll;
+}
